@@ -1,0 +1,55 @@
+div {
+  /*transition: all 0.3s 0.3s;*/
+}
+input {
+  border-radius: 50px;
+  background: #1c313a;
+  padding: 0.5rem;
+  border: 1px solid #718792;
+  color: #718792;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+select {
+  width: 20rem;
+  height: 43px;
+  background: #1c313a;
+  padding: 0.5rem;
+  color: #718792;
+}
+label {
+  font-weight: bold;
+}
+
+.form {
+  width: 100%;
+
+  &__submitButton {
+    border-radius: 2rem;
+
+    background: #388e3c;
+    color: white;
+    padding: 0.8rem;
+    width: 8rem;
+    font-weight: 900;
+    border: none;
+
+    cursor: pointer;
+    box-shadow: 4px 6px 10px 0px rgba(0, 0, 0, 0.75);
+  }
+  &__formControl {
+    transition: all 300ms;
+
+    &--submit {
+      transition: all 300ms;
+      height: 300px;
+    }
+  }
+  &__inputContainer {
+    padding: 1rem 2rem 1rem 1rem;
+    &--display {
+      display: none;
+    }
+  }
+}
