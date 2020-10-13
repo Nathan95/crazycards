@@ -14,11 +14,9 @@ const Cardlist = ({ incomeData, employmentData }) => {
 
   if (employmentData === "student") {
     payloads.push(studentPayload);
-  } else if (incomeData >= 15000) {
-    payloads.push(liquidCardPayload);
   }
 
-  if (employmentData === "student" && incomeData > 15000) {
+  if (incomeData > 15000) {
     payloads.push(liquidCardPayload);
   }
 
@@ -29,7 +27,7 @@ const Cardlist = ({ incomeData, employmentData }) => {
       const i = checkCredit.indexOf(val);
       if (i > -1) {
         const newCheckCredit = [...checkCredit];
-        newCheckCredit.splice(i);
+        newCheckCredit.splice(i, 1);
         setCheckCredit(newCheckCredit);
       }
     }

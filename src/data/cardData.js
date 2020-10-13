@@ -4,8 +4,7 @@ export const studentPayload = {
   apr: "18.9",
   balanceOfferDuration: "0 months",
   purchaseOfferDuration: "6 months",
-  creditAvailable: 1200,
-  selected: false
+  creditAvailable: 1200
 };
 
 export const liquidCardPayload = {
@@ -14,8 +13,7 @@ export const liquidCardPayload = {
   apr: "33.9%",
   balanceOfferDuration: "12 months",
   purchaseOfferDuration: "6 months",
-  creditAvailable: 3000,
-  selected: false
+  creditAvailable: 3000
 };
 
 export const anywhereCardPayload = {
@@ -24,6 +22,5 @@ export const anywhereCardPayload = {
   apr: "33.9%",
   balanceOfferDuration: "0 months",
   purchaseOfferDuration: "0 months",
-  creditAvailable: 300,
-  selected: false
+  creditAvailable: 300
 };
